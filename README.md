@@ -8,7 +8,7 @@ While the predictive results were unimpressive, this project implements the foll
 
 [DataGen-GQ.ipynb](https://github.com/austinjalexander/stocker/blob/master/DataGen-GQ.ipynb): merge data frames, additional data processing, implement nn.py
 
-[nn.py](https://github.com/austinjalexander/stocker/blob/master/nn.py): additional data processing (including optional label balancing, select K best, and feature scaling); includes:
+[nn.py](https://github.com/austinjalexander/stocker/blob/master/nn.py): additional data processing (including optional label balancing, select K best, and feature scaling); also includes:
  - random search implementation to attempt various combinations of hyperparameters
  - forward propagation and backpropagation with various nonlinear activation function options
  - finite difference approximation to check behavior of backpropagation implementation 
@@ -16,4 +16,6 @@ While the predictive results were unimpressive, this project implements the foll
  - 2-hidden layer neural network architecture
  - stochastic gradient descent
  - cross-validation via training, validation, and testing sets
- - training implementaton randomizes order of examples for each epoch and prevents consecutive identically labeled examples
+ - randomized order of training examples for each epoch
+ - prevention of consecutive identically labeled training examples
+ 
